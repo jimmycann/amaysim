@@ -1,0 +1,31 @@
+{
+  "name": "flight-search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "showProducts": "node -e 'require(\"./\").showProducts()'",
+    "showPromotions": "node -e 'require(\"./\").showPromotions()'",
+    "resetProducts": "node -e 'require(\"./\").resetProducts()'",
+    "resetPromotions": "node -e 'require(\"./\").resetPromotions()'",
+    "showCart": "node -e 'require(\"./\").showCart()'",
+    "resetCart": "node -e 'require(\"./\").resetCart()'",
+    "add": "node -e 'require(\"./\").addItem()' $ITEM $PROMO_CODE",
+    "addItem": "node -e 'require(\"./\").addItem()' $ITEM $PROMO_CODE",
+    "total": "node -e 'require(\"./\").total()'",
+    "resetAll": "node -e 'require(\"./\").resetAll()'",
+    "new": "node -e 'require(\"./\").resetAll()'",
+    "new:ShoppingCart": "node -e 'require(\"./\").resetAll()'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-mocha": "^4.8.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "sinon": "^2.3.4"
+  }
+}

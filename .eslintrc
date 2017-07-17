@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "plugins": [
+    "mocha",
+    "standard"
+  ],
+  "rules": {
+    "mocha/no-exclusive-tests": "error",
+    "semi": [1, "always"]
+  },
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "globals": {
+    "request": true,
+    "expect": true,
+    "afterAll": true,
+    "sinon": true,
+    "webpack": true,
+    "$": true
+  }
+}

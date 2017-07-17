@@ -1,0 +1,47 @@
+[
+  {
+    "code": "ult_small.3for2",
+    "type": "bonus",
+    "name": "3 for 2 deal on Unlimited 1GB Sims",
+    "rules": [
+      {
+        "products": "ult_small",
+        "count": 3
+      }
+    ],
+    "reward": [ "ult_small" ],
+    "firstMonth": true
+  }, {
+    "code": "ult_large.bulk",
+    "type": "bulkDiscount",
+    "name": "The Unlimited 5GB Sim bulk discount",
+    "rules": [
+      {
+        "products": "ult_large",
+        "min": 4
+      }
+    ],
+    "price": 3990,
+    "firstMonth": true
+  }, {
+    "code": "ult_medium.1gb",
+    "type": "bundle",
+    "name": "1 GB Data-pack free-of-charge with every Unlimited 2GB",
+    "rules": [
+      {
+        "products": "ult_medium",
+        "count": 1
+      }
+    ],
+    "reward": [ "1gb" ],
+    "firstMonth": false
+  }, {
+    "code": "I<3AMAYSIM",
+    "type": "promoCode",
+    "name": "I<3AMAYSIM promo code",
+    "promoCode": "I<3AMAYSIM",
+    "reward": "-10",
+    "applyAs": "percentage",
+    "firstMonth": false
+  }
+]
